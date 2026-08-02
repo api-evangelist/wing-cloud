@@ -1,8 +1,27 @@
 aid: wing-cloud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wing-cloud.png
 name: Wing Cloud
-description: Wing Cloud is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wing Cloud is the company behind Wing (Winglang), an open-source, cloud-oriented
+  programming language created by Elad Ben-Israel, the creator of AWS CDK. Wing unifies
+  infrastructure and application code into a single model: a "preflight" phase compiles
+  to Terraform/CloudFormation while an "inflight" phase compiles to JavaScript for
+  runtime. Developers build and test distributed cloud systems locally with the Wing
+  Simulator and Wing Console, then deploy to any major cloud provider. The project is
+  MIT-licensed, ships the `wing` CLI (npm: winglang) and the standalone Wing SDK
+  (@winglang/sdk, Apache-2.0), and the company is backed by Battery Ventures. Wing is a
+  language and developer-tooling company; it does not publish a public REST/HTTP API.
 url: https://raw.githubusercontent.com/api-evangelist/wing-cloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 tags:
 - Company
+- Programming Language
+- Cloud Development
+- Infrastructure as Code
+- Developer Tools
+- Open Source
+- SDK
+- CLI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/wing-cloud-domain-security.yml
+- type: Website
+  url: https://www.winglang.io
+  name: Wing Website
+- type: DeveloperPortal
+  url: https://www.winglang.io
+  name: Wing Developer Portal
+- type: Documentation
+  url: https://www.winglang.io/docs/
+  name: Wing Documentation
+- type: GettingStarted
+  url: https://www.winglang.io/docs/start-here/installation
+  name: Install the Wing CLI
+- type: Sandbox
+  url: https://www.winglang.io/play/
+  name: Wing Playground
+- type: Support
+  url: http://t.winglang.io/discord
+  name: Wing Discord Community
+- type: Roadmap
+  url: https://www.winglang.io/contributing/status#roadmap
+  name: Wing Roadmap
+- type: GitHubOrganization
+  url: https://github.com/winglang
+  name: winglang on GitHub
+- type: SourceCode
+  url: https://github.com/winglang/wing
+  name: winglang/wing
+- type: Packages
+  url: packages/wing-cloud-packages.yml
+  name: Wing Packages
+- type: SDKs
+  url: packages/wing-cloud-packages.yml
+  name: Wing SDK (@winglang/sdk)
+- type: CLI
+  url: cli/wing-cloud-cli.yml
+  name: Wing CLI
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

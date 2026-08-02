@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.winglang.io/docs/start-here/installation
+name: wing
+binary: wing
+description: >-
+  The Wing CLI (the `wing` binary) compiles, simulates, tests, and deploys Wing
+  programs. Shipped as the npm package `winglang`; the local Wing Console/Simulator
+  are launched through it. The full command reference is published in the Wing docs.
+install:
+  - method: npm
+    command: npm install -g winglang
+  - method: docs
+    url: https://www.winglang.io/docs/start-here/installation
+docs: https://www.winglang.io/docs/
+package: packages/wing-cloud-packages.yml

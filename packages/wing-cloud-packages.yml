@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/winglang
+packages:
+  - language: javascript
+    registry: npm
+    name: winglang
+    url: https://www.npmjs.com/package/winglang
+    install: npm install -g winglang
+    version: 0.85.49
+    license: MIT
+    bin: wing
+    description: >-
+      Wing programming language compiler and CLI (provides the `wing` binary
+      for compiling, simulating, and deploying Wing programs).
+    repository: https://github.com/winglang/wing
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@winglang/sdk"
+    url: https://www.npmjs.com/package/@winglang/sdk
+    install: npm install @winglang/sdk
+    version: 0.85.49
+    license: Apache-2.0
+    description: >-
+      The Wing SDK — the standard library of the Wing programming language,
+      also usable as a standalone library from any CDK-supported language.
+    repository: https://github.com/winglang/wingsdk
+    official: true
