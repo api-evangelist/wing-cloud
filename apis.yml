@@ -1,14 +1,17 @@
 aid: wing-cloud
 deliveryModel:
-  model: unknown
+  model: library
+  license_evidence:
+    not_product:
+    - winglang/wing
   open_source: unknown
   commercial: false
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Library · distributed through package registries, no callable service
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -54,7 +57,7 @@ tags:
 - Cloud Development
 - Infrastructure as Code
 - Developer Tools
-- Open-Source
+- Open Source
 - SDK
 - CLI
 tags_raw:
@@ -66,6 +69,7 @@ tags_raw:
 - Open Source
 - SDK
 - CLI
+- Open-Source
 apis: []
 common:
 - type: IssueTracker
