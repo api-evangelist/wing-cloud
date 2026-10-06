@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 x-enrichment:
   date: '2026-07-21'
   status: enriched
@@ -72,6 +72,8 @@ tags_raw:
 - Open-Source
 apis: []
 common:
+- url: https://winglang.io/blog/
+  type: Blog
 - type: IssueTracker
   url: https://github.com/winglang/wing/issues
 - type: Releases
